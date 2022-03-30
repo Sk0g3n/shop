@@ -7,7 +7,6 @@ interface target {
 }
 
 contract Hack {
-    uint i;
     target instance;
 
     constructor(address _instaAdd) public {
